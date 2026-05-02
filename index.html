@@ -1,11 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-</head>
-<body>
-      <h1>hello world</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body class="bg-black mx-5 sm:mx-7.5">
+    <header>
+      <nav
+        class="container flex items-center justify-between mt-14.25 mb-8.25"
+      >
+        <h2 id="logo" class="font-extrabold italic text-[36px] ">
+          Fitness
+        </h2>
+        <div class="md:hidden text-[24px] cursor-pointer">
+            <i class="fa-solid fa-bars text-white"></i>
+        </div>
+        <ul class="hidden md:flex items-center gap-8 text-[18px] p-1 rounded-[46px] border-gray-700 border">
+          <li
+            class="font-medium py-2 px-5 rounded-[46px] hover:bg-[#E6533C] text-white"
+          >
+            <a href="#home">Home</a>
+          </li>
+          <li
+            class="font-medium py-2 px-5 rounded-[46px] hover:bg-[#E6533C] text-white"
+          >
+            <a href="#service">Service</a>
+          </li>
+          <li
+            class="font-medium py-2 px-5 rounded-[46px] hover:bg-[#E6533C] text-white"
+          >
+            <a href="#contact">Contact</a>
+          </li>
+          <li
+            class="font-medium py-2 px-5 rounded-[46px] hover:bg-[#E6533C] text-white"
+          >
+            <a href="#about">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- banner section start -->
+     <section>
+      <div class="container flex flex-col items-center justify-between lg:flex-row gap-11.75 sm:gap-25 md:gap-41.75">
+            <div class="max-w-130 flex flex-col gap-7">
+                  <h1 class="text-[36px] font-black sm:text-[78px]">Get body in shape & stay healthy</h1>
+                  <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                  <div class="flex gap-3.5">
+                        <button class="btn bg-[#E6533C] border-0">Join Club Now!</button>
+                        <button class="btn">Download App</button>
+                  </div>
+            </div>
+            <div>
+                  <img src="images/Images 2.png" alt="Fitness Image">
+            </div>
+      </div>
+     </section>
+    <!-- banner section end -->
+  </body>
 </html>
