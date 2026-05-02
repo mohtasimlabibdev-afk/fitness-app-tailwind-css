@@ -13,9 +13,9 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="bg-black mx-5 sm:mx-7.5">
+  <body class="bg-black">
     <!-- nav bar section -->
-    <header>
+    <header class=" mx-5 sm:mx-7.5">
       <nav class="container flex items-center justify-between mt-14.25 mb-8.25">
         <h2 id="logo" class="font-extrabold italic text-[36px]">Fitness</h2>
         <div class="md:hidden text-[24px] cursor-pointer">
@@ -47,6 +47,8 @@
         </ul>
       </nav>
     </header>
+
+    <main class=" mx-5 sm:mx-7.5">
 
     <!-- banner section start -->
     <section>
@@ -172,15 +174,155 @@
 
     <!-- training and exercise section start -->
      <section>
-            <div class="text-center mb-14.5">
+      <div class="container">
+           <div class="text-center mb-14.5">
             <h3 class="text-[32px] sm:text-[48px] font-black mb-3.5">
                   Meet Our Team
             </h3>
             <p class="text-[14px] leading-6">
                   We believe fitness should be accessible to everyone, everywhere,
                   regardless of income or <br> access to a gym.
+            </p>
+      </div>
+            <!-- cards container -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 bg-[#222222] p-5 rounded-2xl items-center justify-center">
+                  <!-- card -->
+                  <div class="flex flex-col">
+                        <img
+                              src="images/trainer1.png"
+                              alt="Fitness Image"
+                        class="rounded-2xl w-78.25 sm:w-49.75 md:w-81.5 h-68"
+                        />
+                        <div class="-mt-20 pl-5 text-left">
+
+                              <h4 class="text-[20px] font-black mt-5">Jerome Bell</h4>
+                              <p class="text-[14px]">
+                                    Trainer
+                              </p>
+                        </div>
+                  </div>
+                  <!-- card -->
+                  <div class="flex flex-col">
+                        <img
+                              src="images/trainer2.png"
+                              alt="Fitness Image"
+                        class="rounded-2xl w-78.25 sm:w-49.75 md:w-81.5 h-68"
+                        />
+                        <div class="-mt-20 pl-5 text-left">
+
+                              <h4 class="text-[20px] font-black mt-5">Cameron Williamson</h4>
+                              <p class="text-[14px]">
+                                    Trainer
+                              </p>
+                        </div>
+                  </div>
+                  <!-- card -->
+                  <div class="flex flex-col">
+                        <img
+                              src="images/trainer3.png"
+                              alt="Fitness Image"
+                        class="rounded-2xl w-78.25 sm:w-49.75 md:w-81.5 h-68"
+                        />
+                        <div class="-mt-20 pl-5 text-left">
+
+                              <h4 class="text-[20px] font-black mt-5">Darrell Steward</h4>
+                              <p class="text-[14px]">
+                                    Trainer
+                              </p>
+                        </div>
+                  </div>
+                  <!-- card -->
+                  <div class="flex flex-col">
+                        <img
+                              src="images/trainer4.png"
+                              alt="Fitness Image"
+                        class="rounded-2xl w-78.25 sm:w-49.75 md:w-81.5 h-68"
+                        />
+                        <div class="-mt-20 pl-5 text-left">
+
+                              <h4 class="text-[20px] font-black mt-5">Dianne Russell</h4>
+                              <p class="text-[14px]">
+                                    Trainer
+                              </p>
+                        </div>
+                  </div>
+                  <!-- card -->
+                  <div class="flex flex-col">
+                        <img
+                              src="images/trainer5.png"
+                              alt="Fitness Image"
+                        class="rounded-2xl w-78.25 sm:w-49.75 md:w-81.5 h-68"
+                        />
+                        <div class="-mt-20 pl-5 text-left">
+
+                              <h4 class="text-[20px] font-black mt-5">Cody Fisher</h4>
+                              <p class="text-[14px]">
+                                    Trainer
+                              </p>
+                        </div>
+                  </div>
+                  <!-- card -->
+                  <div class="flex flex-col">
+                        <img
+                              src="images/trainer6.png"
+                              alt="Fitness Image"
+                        class="rounded-2xl w-78.25 sm:w-49.75 md:w-81.5 h-68"
+                        />
+                        <div class="-mt-20 pl-5 text-left">
+
+                              <h4 class="text-[20px] font-black mt-5">Theresa Webb</h4>
+                              <p class="text-[14px]">
+                                    Trainer
+                              </p>
+                        </div>
+                  </div>
       </div>
      </section>
     <!-- training and exercise section end -->
+    </main>
+
+    <!-- footer  -->
+
+     <footer class="bg-[#222222] mt-20 text-white">
+  <div class="container mx-auto px-5 sm:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-16 gap-10 lg:gap-20">
+    
+    <!-- Logo Section -->
+    <div class="sm:col-span-2 lg:col-span-2 max-w-md">
+      <h2 id="logo" class="font-extrabold italic text-5xl md:text-[70px] mb-5 text-orange-500">Fitness</h2>
+      <p class="text-sm text-gray-400 leading-relaxed">
+        We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.
+      </p>
+    </div>
+
+    <!-- Links 1 -->
+    <div>
+      <h3 class="font-bold text-2xl mb-6">Get Started</h3>
+      <ul class="flex flex-col gap-3 text-lg text-white/50">
+        <li><a href="#" class="hover:text-white transition">Service</a></li>
+        <li><a href="#" class="hover:text-white transition">Contact Us</a></li>
+        <li><a href="#" class="hover:text-white transition">Affiliate Program</a></li>
+        <li><a href="#" class="hover:text-white transition">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Links 2 -->
+    <div>
+      <h3 class="font-bold text-2xl mb-6">Explore</h3>
+      <ul class="flex flex-col gap-3 text-lg text-white/50">
+        <li><a href="#" class="hover:text-white transition">Fitness</a></li>
+        <li><a href="#" class="hover:text-white transition">Platform</a></li>
+        <li><a href="#" class="hover:text-white transition">Workout Library</a></li>
+        <li><a href="#" class="hover:text-white transition">App Design</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="py-8 text-center text-base border-t border-gray-700 text-gray-500">
+    <p>All rights reserved @Fitness 2024</p>
+  </div>
+</footer>
+
+
   </body>
 </html>
