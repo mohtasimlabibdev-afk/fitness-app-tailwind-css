@@ -4,22 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="bg-black mx-5 sm:mx-7.5">
+    <!-- nav bar section -->
     <header>
-      <nav
-        class="container flex items-center justify-between mt-14.25 mb-8.25"
-      >
-        <h2 id="logo" class="font-extrabold italic text-[36px] ">
-          Fitness
-        </h2>
+      <nav class="container flex items-center justify-between mt-14.25 mb-8.25">
+        <h2 id="logo" class="font-extrabold italic text-[36px]">Fitness</h2>
         <div class="md:hidden text-[24px] cursor-pointer">
-            <i class="fa-solid fa-bars text-white"></i>
+          <i class="fa-solid fa-bars text-white"></i>
         </div>
-        <ul class="hidden md:flex items-center gap-8 text-[18px] p-1 rounded-[46px] border-gray-700 border">
+        <ul
+          class="hidden md:flex items-center gap-8 text-[18px] p-1 rounded-[46px] border-gray-700 border"
+        >
           <li
             class="font-medium py-2 px-5 rounded-[46px] hover:bg-[#E6533C] text-white"
           >
@@ -43,22 +47,140 @@
         </ul>
       </nav>
     </header>
+
     <!-- banner section start -->
+    <section>
+      <div
+        class="container flex flex-col items-center justify-between lg:flex-row gap-11.75 sm:gap-25 md:gap-41.75"
+      >
+        <div class="max-w-130 flex flex-col gap-7">
+          <h1 class="text-[36px] font-black sm:text-[78px]">
+            Get body in shape & stay healthy
+          </h1>
+          <p>
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
+          </p>
+          <div class="flex gap-3.5">
+            <button class="btn bg-[#E6533C] border-0">Join Club Now!</button>
+            <button class="btn">Download App</button>
+          </div>
+        </div>
+        <div>
+          <img src="images/Images 2.png" alt="Fitness Image" />
+        </div>
+      </div>
+    </section>
+    <!-- banner section end -->
+
+    <!-- Habits Section start -->
+    <section>
+      <div class="container py-16.25 sm:py-21.5 md:py-25.5">
+        <div class="text-center mb-14.5">
+          <h3 class="text-[32px] sm:text-[48px] font-black mb-3.5">
+            Change Your Habits
+          </h3>
+          <p class="text-[14px] leading-6">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <!-- cards container -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+          <!-- card -->
+          <div class="flex flex-col items-center text-center">
+            <img
+              src="images/image 3.png"
+              alt="Fitness Image"
+              class="w-45 h-45 rounded-[50%]"
+            />
+            <h4 class="text-[18px] font-bold mt-5 mb-1.5">Movement</h4>
+            <p class="text-[14px] leading-6">
+              We believe fitness should be accessible to everyone
+            </p>
+          </div>
+          <!-- card -->
+          <div class="flex flex-col items-center text-center">
+            <img
+              src="images/image 2.png"
+              alt="Fitness Image"
+              class="w-45 h-45 rounded-[50%]"
+            />
+            <h4 class="text-[18px] font-bold mt-5 mb-1.5">Time</h4>
+            <p class="text-[14px] leading-6">
+              We believe fitness should be accessible to everyone
+            </p>
+          </div>
+          <!-- card -->
+          <div class="flex flex-col items-center text-center">
+            <img
+              src="images/image 4.png"
+              alt="Fitness Image"
+              class="w-45 h-45 rounded-[50%]"
+            />
+            <h4 class="text-[18px] font-bold mt-5 mb-1.5">Practice</h4>
+            <p class="text-[14px] leading-6">
+              We believe fitness should be accessible to everyone
+            </p>
+          </div>
+          <!-- card -->
+          <div class="flex flex-col items-center text-center">
+            <img
+              src="images/image 5.png"
+              alt="Fitness Image"
+              class="w-45 h-45 rounded-[50%]"
+            />
+            <h4 class="text-[18px] font-bold mt-5 mb-1.5">Weight Loss</h4>
+            <p class="text-[14px] leading-6">
+              We believe fitness should be accessible to everyone
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Habits Section End -->
+
+    <!-- Run Extra card -->
+    <section>
+      <div
+        class="bg-[#222222] py-10 pr-8 pl-13.5 rounded-xl container flex flex-col items-center justify-between sm:flex-row gap-7.5 sm:gap-16.75 mb-16.5 sm:mb-18 md:mb-25"
+      >
+        <div class="max-w-110.75 sm:w-65.75">
+          <h1
+            class="text-[32px] font-black sm:text-[36px] md:text-[48px] mb-3.5"
+          >
+            Run Extra Mile Easily
+          </h1>
+          <p class="mb-8.5">
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
+          </p>
+
+          <button class="btn bg-[#E6533C] border-0 w-full">Join Club Now!</button>
+        </div>
+        <!-- card image container -->
+        <div class="w-full sm:w-1/2 h-full sm:h-1/2 overflow-hidden rounded-2xl">
+          <img
+            src="images/run.jpg"
+            class="w-full h-full object-cover object-center"
+            alt="Runner"
+          />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- training and exercise section start -->
      <section>
-      <div class="container flex flex-col items-center justify-between lg:flex-row gap-11.75 sm:gap-25 md:gap-41.75">
-            <div class="max-w-130 flex flex-col gap-7">
-                  <h1 class="text-[36px] font-black sm:text-[78px]">Get body in shape & stay healthy</h1>
-                  <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-                  <div class="flex gap-3.5">
-                        <button class="btn bg-[#E6533C] border-0">Join Club Now!</button>
-                        <button class="btn">Download App</button>
-                  </div>
-            </div>
-            <div>
-                  <img src="images/Images 2.png" alt="Fitness Image">
-            </div>
+            <div class="text-center mb-14.5">
+            <h3 class="text-[32px] sm:text-[48px] font-black mb-3.5">
+                  Meet Our Team
+            </h3>
+            <p class="text-[14px] leading-6">
+                  We believe fitness should be accessible to everyone, everywhere,
+                  regardless of income or <br> access to a gym.
       </div>
      </section>
-    <!-- banner section end -->
+    <!-- training and exercise section end -->
   </body>
 </html>
